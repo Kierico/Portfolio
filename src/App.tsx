@@ -1,8 +1,15 @@
+import { About } from "./components/about/About";
+import { Banner } from "./components/banner/Banner";
+import { Header } from "./components/header/Header";
+import "./styles/global.scss";
+
 function App() {
   return (
-    <div>
-      <h1>Kiérico Souza</h1>
-    </div>
+    <>
+      <Header />
+      <Banner />
+      <About />
+    </>
   );
 }
 
