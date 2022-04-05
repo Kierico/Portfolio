@@ -1,0 +1,17 @@
+.footer-content {
+    display: flex;
+    justify-content: center;
+    background-color: var(--fourth-grey);
+    padding: 2rem 0px;
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    span {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: var(--first-color);
+    }
+}

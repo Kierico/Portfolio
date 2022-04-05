@@ -1,0 +1,17 @@
+.imageCard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 15rem;
+    min-height: 15rem;
+    border: 1px solid var(--second-grey);
+    background-color: var(--fourth-grey);
+
+    .imageCard-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8rem;
+        color: var(--first-color);
+    }
+}

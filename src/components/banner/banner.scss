@@ -1,8 +1,11 @@
 .container-banner {
     display: flex;
+    width: 70vw;
+    max-width: 1440px;
+    max-height: 200px;
     justify-content: space-between;
     align-items: center;
-    width: 70vw;
+    margin-top: 100px;
 
     .content-banner {
         h1 {

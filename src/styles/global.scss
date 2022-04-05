@@ -9,8 +9,9 @@ html {
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    height: 100%;
     background-color: var(--third-grey);
     color: var(--light-color);
     font-family: "DM Sans", sans-serif;
