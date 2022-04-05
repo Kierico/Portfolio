@@ -1,0 +1,17 @@
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 3.2rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+
+    .services-card {
+        display: grid;
+        grid-template-areas: "services-card services-card";
+        column-gap: 3rem;
+    }
+}

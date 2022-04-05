@@ -1,0 +1,27 @@
+.container-card {
+    display: flex;
+    width: 100%;
+    min-width: 35rem;
+    min-height: 24rem;
+    background-color: var(--fourth-grey);
+    padding: 44px 30px;
+    border: 1px solid var(--second-grey);
+    border-bottom: 5px solid var(--first-color);
+
+    >figure {
+        display: flex;
+        flex-direction: column;
+
+        .faCode {
+            font-size: 5.6rem;
+            color: var(--first-color);
+            margin-bottom: 1.375rem;
+        }
+
+        >h2 {
+            font-size: 3.2rem;
+            font-weight: 500;
+            color: var(--first-grey);
+        }
+    }
+}
